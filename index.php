@@ -50,7 +50,7 @@ include('conexion.php');
                 height: 40px; 
             }
             .nota{
-                height: 100px; 
+                height: 120px; 
             }
             .select i{
                 font-size: 30px;
@@ -85,7 +85,6 @@ crossorigin="anonymous"></script>
 
             <?php
             include('marca.php');
-
             ?>
         </select>
         <div></div>
@@ -119,8 +118,8 @@ background-color:#ffcd00;
 color: #213f99;
 font-weight: bold;
 " disabled>
-<!-- <div id="res" style="width:300px;height:50px;"></div> -->
-<!---->
+<div id="res" style="width:300px;height:50px;">
+
 <div class="nota">
   nota: si tu moto no se encuentra en el listado o tienes
    alguna pregunta adicional diligencia el siguiente formulario 
