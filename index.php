@@ -11,7 +11,7 @@ include('conexion.php');
             .container { 
                 display: inline-block; 
                 width: 355px; 
-                height: 770px; 
+                height: 800px; 
                 margin: 6px; 
                 background-color: #fff;
                 border-style: solid;
@@ -50,7 +50,7 @@ include('conexion.php');
                 height: 40px; 
             }
             .nota{
-                height: 120px; 
+                height: 140px; 
             }
             .select i{
                 font-size: 30px;
