@@ -209,16 +209,18 @@ $(document).on('ready',function(){
 });
 //
 //email
-	$(document).on('ready',function(){       
+    $(document).on('ready',function(){       
     $('#soat').click(function(){
         var soat = $(this).val();
         console.log(modelo); 
         if(soat){
             document.getElementById("correo").removeAttribute("disabled");
 	    document.getElementById("telefono").removeAttribute("disabled");
+	    document.getElementById("exampleCheck1").removeAttribute("disabled");
         }else{
             document.getElementById("correo").setAttribute("disabled","");
 	    document.getElementById("telefono").setAttribute("disabled","");
+	    document.getElementById("exampleCheck1").setAttribute("disabled","");
         }
         
     });
