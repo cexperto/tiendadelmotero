@@ -142,7 +142,7 @@ font-weight: bold;
     <input type="text" value="" name="modeloU" id="modeloU" placeholder="modelo" class="form-control" required>
     <label class="form-check-label" for="exampleCheck1"></label>
     <div style="width:550px;height: 7px;"></div>
-    <select name="soatU" id="soatU" class="form-control" disabled required>
+    <select name="soatU" id="soatU" class="form-control" required>
         <option value="">vigencia de papeles</option>  
         <option value="a">DE 0 A 1 MES y 29 DIAS</option>
         <option value="b">DE 2 A 5 MESES Y 29 DIAS</option>
@@ -234,22 +234,7 @@ $(document).on('ready',function(){
     });
 });
 //
-$(document).on('ready',function(){       
-    $('#soat').click(function(){
-        var soat = $(this).val();
-        console.log(soat); 
-        if(soat){
-            document.getElementById("correo").removeAttribute("disabled");
-            document.getElementById("telefono").removeAttribute("disabled");
-            document.getElementById("exampleCheck1").removeAttribute("disabled");
-        }else{
-            document.getElementById("correo").setAttribute("disabled","");
-            document.getElementById("telefono").setAttribute("disabled","");
-            document.getElementById("exampleCheck1").setAttribute("disabled","");
-        }
-        
-    });
-});
+
 //
 //exampleCheck1
 //
