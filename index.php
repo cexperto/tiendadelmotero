@@ -117,8 +117,8 @@ crossorigin="anonymous"></script>
 background-color:#ffcd00;
 color: #213f99;
 font-weight: bold;
-" disabled>
-<div id="res" style="width:300px;height:50px;"></div>
+" disabled><div></div>
+<div id="res" style="width:300px;height:120px;"></div>
 
 <div></div>
 <div class="nota">
