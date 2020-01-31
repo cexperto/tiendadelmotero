@@ -107,7 +107,7 @@ crossorigin="anonymous"></script>
 <input type="text" value="" name="telefono" id="telefono" placeholder="numero de celular" class="form-control" disabled>
 <div></div>
 <div class="form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1" style="width:25px;height:25px;" disabñed>
+    <input type="checkbox" class="form-check-input" id="exampleCheck1" style="width:25px;height:25px;" disabled>
 
     <label class="form-check-label" for="exampleCheck1" style="width:285px;height:20px; padding:5px;">
     Estoy de acuerdo con los terminos y condiciones y politica de privacidad</label>
@@ -118,8 +118,8 @@ background-color:#ffcd00;
 color: #213f99;
 font-weight: bold;
 " disabled>
-<!-- <div id="res" style="width:300px;height:50px;"></div> -->
-<!---->
+<div id="res" style="width:300px;height:50px;"></div>
+
 <div></div>
 <div class="nota">
   nota: si tu moto no se encuentra en el listado o tienes
