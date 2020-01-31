@@ -1,6 +1,6 @@
 <?php
 $mensaje="Datos de moto que no se encuentran registrados";
-$destino="";//correo a donde se va enviar
+$destino="rattman.c@gmail.com";//correo a donde se va enviar
 $nombre =$_post['marcaU'];
 $referencia =$_post['referenciaU'];
 $modelo =$_post['modeloU'];
