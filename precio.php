@@ -1,4 +1,5 @@
 <?php
+error_reporting(0);
 include('conexion.php');
 $marca=$_POST['marca'];
 $referencia=$_POST['referencia'];
@@ -6,7 +7,7 @@ $modelo=$_POST['modelo'];
 $soat=$_POST['soat'];
 $correo=$_POST['correo'];
 $telefono=$_POST['telefono'];
-$porcentaje=7.5;
+$porcentaje=4;
 
 if($marca && $referencia && $modelo && $soat && $correo && $telefono)
 {
@@ -32,8 +33,8 @@ if($marca && $referencia && $modelo && $soat && $correo && $telefono)
     }
 }
 else{
-    echo "<script>alert('todos los campos deben estar completos');</script>";
-    echo '<script> window.location="index.php"; </script>';
+   //echo "<script>alert('todos los campos deben estar completos');</script>";
+  /*  echo '<script src="validaciones.js"></script>';  */
   
 }
 ?>
