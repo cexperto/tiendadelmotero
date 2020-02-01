@@ -15,11 +15,11 @@ if($rowCount > 0)
                                 values('$marca','$referencia','$modelo','$papeles','$s_a','$precioPorcentaje','$correo','$telefono')";
         if (mysqli_query($db, $insertar))
         {
-            echo "
-            ¡¡ FELICITACIONES !! pensando en tu beneficio te ofrecemos dos modalidades de pago<br><br>
+            echo "<font color=\"white\">
+            <h3>¡¡FELICITACIONES!!</h3><h4>pensando en tu beneficio te ofrecemos dos modalidades de pago<br><br>
 
             $s_a pago en menos de 24 horas<br>
-            $precioPorcentaje pago en 30 dias<br>
+            $precioPorcentaje pago en 30 dias<br></h4></font>
             
             ";
 
