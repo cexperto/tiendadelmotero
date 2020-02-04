@@ -1,7 +1,8 @@
+
 .container { 
     display: inline-block; 
     width: 355px; 
-    height: 1030px; 
+    height: 800px; 
     margin: 6px; 
     background-color: #fff;
     border-style: solid;
@@ -11,7 +12,44 @@
     cursor:pointer;
     min-height:45px;
     }
-
+    .containerPrecio { 
+        display: inline-block; 
+        width: 355px; 
+        height: 200px; 
+        margin: 6px; 
+        background-color:#fff;
+        border-style: solid;
+        border-color: #e8e8e8;
+        border-radius: 10px;
+        border:2px solid #BEBEBE;
+        cursor:pointer;
+        min-height:45px;
+        }
+        .contenedorVinculo{
+             
+                display: inline-block; 
+                width: 450px; 
+                margin: 6px; 
+                
+                
+                cursor:pointer;
+                min-height:45px;
+                
+        }
+        .container3 { 
+            display: inline-block; 
+            width: 355px; 
+            height: 600px; 
+            margin: 6px; 
+            background-color: #fff;
+            border-style: solid;
+            border-color: #e8e8e8;
+            border-radius: 10px;
+            border:2px solid #BEBEBE;
+            cursor:pointer;
+            min-height:45px;
+            }
+        
 .disabled{color:#b6b6b6;}
 div{
     height:10px;
@@ -63,6 +101,27 @@ div{
 }
 .resultado{
     background-color: #2d51a6;
+   height:160px;
+   border-radius:5px;
+}
+.resultadoPrecio{
+    background-color: ##FFFFFF;
    height:140px;
    border-radius:5px;
 }
+
+  
+@media screen and (max-width: 800px) {
+    .orientacion {
+        
+        top: 250px;
+        left: 60px;
+    }
+  
+  } 
+  h4{
+    font-weight: bold;
+
+  }
+
+  
