@@ -124,34 +124,15 @@ style="background-color:#ffcd00;color: #213f99;font-weight: bold;"><div></div>
 </body>
 
 
-<script type="text/javascript">
-// enviar formulario
-    $(document).on('ready',function(){       
-    $('#enviar').click(function(){
-        var url = "precio.php";
-        $.ajax({                        
-           type: "POST",                 
-           url: url,                     
-           data: $("#precio").serialize(), 
-           success: function(data)             
-           {
-             $('#res').html(data);               
-           }
-       });
-    });
-});
-  
-</script>
-
 <script>
-    /* 
+    
 $(document).on("submit","#precio",function(e){
     e.preventDefault();
      $("#myModal").modal(); 
     $.post("conocerPrecio.php",$("#precio").serialize(),function(res){
         $("#res").html(res);
     });
-}) */
+}) 
 </script>
 <!-- selects -->
 <script>
