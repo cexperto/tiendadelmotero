@@ -15,7 +15,7 @@ if($rowCount > 0)
                                 values('$marca','$referencia','$modelo','$papeles','$s_b','$precioPorcentaje','$correo','$telefono')";
         if (mysqli_query($db, $insertar))
         {
-            echo "<font color=\"white\">
+            echo "<font color=\"black\">
             <h3>¡¡FELICITACIONES!!</h3><h4>pensando en tu beneficio te ofrecemos dos modalidades de pago<br><br>
 
             $s_b pago en menos de 24 horas<br>
