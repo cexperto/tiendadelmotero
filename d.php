@@ -14,11 +14,26 @@ if($rowCount > 0)
                                 values('$marca','$referencia','$modelo','$papeles','$s_d','$precioPorcentaje','$correo','$telefono')";
         if (mysqli_query($db, $insertar))
         {
-            echo "<font color=\"black\">
-            <h3>¡¡FELICITACIONES!!</h3><h4>pensando en tu beneficio te ofrecemos dos modalidades de pago<br><br>
+            function asDollars($s_d) {
+                if ($s_d<0) return "-".asDollars(-$s_d);
+                return '$' . number_format($s_d, 2);
+              }
+              $pricetotal = asDollars($s_d);
+              
+              function asDollars1($s_d) {
+                if ($s_d<0) return "-".asDollars(-$s_d);
+                return '$' . number_format($s_d, 2);
+              }
+              $pricetotal1 = asDollars($precioPorcentaje);
+              
 
-            $ $s_d pago en menos de 24 horas<br>
-            $ $precioPorcentaje pago en 30 dias<br></h4></font>
+            echo "<font color=\"black\">
+            <h3>¡¡FELICITACIONES!!</h3><h4>pensando en tu beneficio te ofrecemos dos modalidades de pago<br><br>";
+            //echo money_format("%.2n", $cadena_numerica1);
+            echo "$pricetotal pago en menos de 24 horas<br>";
+
+            //echo money_format("%.2n", $cadena_numerica2);
+            echo "$pricetotal1 pago en 30 dias<br></h4></font>
             
             ";
 
