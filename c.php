@@ -18,8 +18,8 @@ if($rowCount > 0)
             echo "<font color=\"black\">
             <h3>¡¡FELICITACIONES!!</h3><h4>pensando en tu beneficio te ofrecemos dos modalidades de pago<br><br>
 
-            $s_c pago en menos de 24 horas<br>
-            $precioPorcentaje pago en 30 dias<br></h4></font>
+            $ $s_c pago en menos de 24 horas<br>
+            $ $precioPorcentaje pago en 30 dias<br></h4></font>
             
             ";
 
