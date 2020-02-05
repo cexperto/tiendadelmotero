@@ -136,7 +136,8 @@ style="background-color:#ffcd00;color: #213f99;font-weight: bold;"><div></div>
 </body>
 
 <script src="permitir.js"></script>
-<script src="activarcampos.js"></script>
+    <!--  
+<script src="activarcampos.js"></script>-->
 <script src="activarcolores.js"></script>
 <script src="validaciones.js"></script>
 <script src="marca.js"></script>
