@@ -28,7 +28,7 @@ if($rowCount > 0)
               
 
             echo "<font color=\"black\">
-            <h3>¡¡FELICITACIONES!!</h3><h4>pensando en tu beneficio te ofrecemos dos modalidades de pago<br><br>";
+            <h3>¡¡FELICITACIONES!!</h3><h4>Pensando en tu beneficio te ofrecemos dos modalidades de pago<br><br>";
             //echo money_format("%.2n", $cadena_numerica1);
             echo "$pricetotal pago en menos de 24 horas<br>";
 
