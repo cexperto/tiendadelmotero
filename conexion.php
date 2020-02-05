@@ -7,7 +7,7 @@ $dbUsername = 'gu6EqlTj8p';
 $dbPassword = 'sqYM6pwdQp';
 
 $dbName = 'gu6EqlTj8p';*/
-$dbHost = '198.136.62.62';
+$dbHost = '186.155.17.192';
 
 $dbUsername = 'ejxhyjxs_motos';
 
