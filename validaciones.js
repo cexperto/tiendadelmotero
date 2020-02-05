@@ -1,5 +1,7 @@
-    $(document).on('ready',function(){       
-    $('#enviar').click(function(){              
+        $(document).on('ready',function(){       
+    $('#enviar').click(function(){ 
+        var contenedor=document.getElementById("contenedor");
+        
         var varmarca = document.getElementById("marca");
         var capam = document.getElementById("mm");
  
@@ -20,14 +22,13 @@
 
         var varcheck = document.getElementById("exampleCheck1");
         
-        
        
         if(varmarca.value==0 || varmarca.value == ""){
             capam.style.borderColor="#e4002b";
             varmarca.style.backgroundColor = '#F6A9A7';
             varmarca.style.borderColor = '#F6A9A7';
 
-            document.getElementById('rmarca').innerHTML ="<font color = '#e4002b'>Elige la marca de tu moto</font>"; 
+            document.getElementById('rmarca').innerHTML ="<font size='1' color = '#e4002b'>Elige la marca de tu moto</font>"; 
             document.getElementById('rmarca').style.height='22px';
             document.getElementById('rmarca').style.textAlign = "left";
 
@@ -40,8 +41,8 @@
                     varreferencia.style.backgroundColor = '#F6A9A7';
                     varreferencia.style.borderColor = '#F6A9A7';
                     
-                    document.getElementById('rreferencia').innerHTML = "<font color = '#e4002b'>Encentra esta información en la licencia de transito o en el manual del vehículo.</font>";
-                    document.getElementById('rreferencia').style.height='42px';
+                    document.getElementById('rreferencia').innerHTML = "<font size='1' color = '#e4002b'>Encentra esta información en la licencia de transito o en el manual del vehículo.</font>";
+                    document.getElementById('rreferencia').style.height='30px';
                     document.getElementById('rreferencia').style.textAlign = "left";
                     
                     }
@@ -50,8 +51,8 @@
                         varmodelo.style.backgroundColor="#F6A9A7";
                         varmodelo.style.borderColor="#F6A9A7";
 
-                        document.getElementById('rmodelo').innerHTML = "<font color = '#e4002b'>Encentra esta información en la licencia de transito o en el manual del vehículo.</font>";
-                        document.getElementById('rmodelo').style.height='42px';
+                        document.getElementById('rmodelo').innerHTML = "<font  size='1' color = '#e4002b'>Encentra esta información en la licencia de transito o en el manual del vehículo.</font>";
+                        document.getElementById('rmodelo').style.height='30px';
                         document.getElementById('rmodelo').style.textAlign = "left";
                 
                     }
@@ -63,8 +64,8 @@
                         varsoat.style.backgroundColor = '#F6A9A7';
                         varsoat.style.borderColor="#F6A9A7";
 
-                        document.getElementById('rsoat').innerHTML = "<font color = '#e4002b'>Ingresa la vigencia de tus papeles </font>";
-                        document.getElementById('rsoat').style.height='22px';
+                        document.getElementById('rsoat').innerHTML = "<font size='1' color = '#e4002b'>Ingresa la vigencia de tus papeles </font>";
+                        document.getElementById('rsoat').style.height='20px';
                         document.getElementById('rsoat').style.textAlign = "left";
                     
 
@@ -77,8 +78,8 @@
                         varcorreo.style.backgroundColor = '#F6A9A7';
                         varcorreo.style.borderColor="#F6A9A7";
 
-                        document.getElementById('rcorreo').innerHTML = "<font color = '#e4002b'>Por favor, vuelva a verificar su dirección de correo electrónico. Solo lo usaremos para enviar información sobre su inspección</font>";
-                        document.getElementById('rcorreo').style.height='62px';
+                        document.getElementById('rcorreo').innerHTML = "<font size='1' color = '#e4002b'>Por favor, vuelva a verificar su dirección de correo electrónico. Solo lo usaremos para enviar información sobre su inspección</font>";
+                        document.getElementById('rcorreo').style.height='30px';
                         document.getElementById('rcorreo').style.textAlign = "left";
                     
                     }
@@ -90,8 +91,8 @@
                         vartelefono.style.backgroundColor = '#F6A9A7';
                         vartelefono.style.borderColor="#F6A9A7";
 
-                        document.getElementById('rtelefono').innerHTML = "<font color = '#e4002b'>Debe contener 10 dígitos. Solo lo contactaremos para su inspección</font>";
-                        document.getElementById('rtelefono').style.height='30px';
+                        document.getElementById('rtelefono').innerHTML = "<font size='1' color = '#e4002b'>Debe contener 10 dígitos. Solo lo contactaremos para su inspección</font>";
+                        document.getElementById('rtelefono').style.height='20px';
                         document.getElementById('rtelefono').style.textAlign = "left";
                         
                     }
@@ -100,11 +101,14 @@
                     if(isChecked){
                     
                     }else{
-                        document.getElementById('rchek').innerHTML = "<font color = '#e4002b'>Por favor, acepta nuestro aviso de privacidad.</font>";
+                        document.getElementById('rchek').innerHTML = "<font  size='1' color = '#e4002b'>Por favor, acepta nuestro aviso de privacidad.</font>";
                         document.getElementById('rchek').style.height='22px';
                         document.getElementById('rchek').style.textAlign = "left";
-
+                        document.getElementById('contenedor').style.height='800px';
+                       
+                      
                     }
+                    
 
         
     });
