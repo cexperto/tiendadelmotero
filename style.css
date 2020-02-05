@@ -1,8 +1,7 @@
-
 .container { 
     display: inline-block; 
     width: 355px; 
-    height: 800px; 
+    height: 700px; 
     margin: 6px; 
     background-color: #fff;
     border-style: solid;
@@ -14,7 +13,8 @@
     }
     .containerPrecio { 
         display: inline-block; 
-        width: 355px; 
+        
+        width: 450px; 
         height: 200px; 
         margin: 6px; 
         background-color:#fff;
@@ -24,11 +24,15 @@
         border:2px solid #BEBEBE;
         cursor:pointer;
         min-height:45px;
+        padding-top: 5px;
+        padding-right: 20px;
+        padding-bottom: 5px;
+        padding-left: 20px;
         }
         .contenedorVinculo{
              
                 display: inline-block; 
-                width: 450px; 
+                width: 500px; 
                 margin: 6px; 
                 
                 
@@ -101,13 +105,18 @@ div{
 }
 .resultado{
     background-color: #2d51a6;
-   height:160px;
+   height:140px;
    border-radius:5px;
+   
 }
 .resultadoPrecio{
     background-color: ##FFFFFF;
-   height:140px;
-   border-radius:5px;
+    height:140px;
+    border-radius:5px;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-left: 20px;
 }
 
   
