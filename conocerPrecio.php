@@ -20,7 +20,7 @@ crossorigin="anonymous"></script>
 <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
 <script type="text/javascript" src="https://cdn.navdmp.com/req?v=9&amp;id=a88fec8955ca4c3e451ed986e09%7C0&amp;acc=58464&amp;tit=Compramos%2520tu%2520carro%2520f%25E1cil%252C%2520r%25E1pido%2520y%2520seguro%2520%257C%2520Carro123.com&amp;upd=1&amp;h1=COMPRAMOS%2520TU%2520CARRO&amp;url=https%253A%2F%2Fwww.carro123.com%2F" async=""></script>
 
-<body style="background-color:#001d60;"
+<body background="img/Fondoc.jpg" style="background-repeat: no-repeat;">
 <div class="container-fluid">
   <br>
   <div class="row">
@@ -28,11 +28,19 @@ crossorigin="anonymous"></script>
     <div align="right">
      <div class="contenedorVinculo">
         <a href="index.php" style="color:#FFF;">
-         Precio inicial de tu moto en linea</a><font color="#FFF"> ><img src="img/numer2.png" style="font-size:80%;" alt=""> agenda revision gratuita</font>
+        <img src="img/1icono.png"   alt="" style="
+         width:40px;
+         heigth:40px;
+         ">
+         Precio inicial de tu moto en linea  ></a> 
+         <img src="img/2icono.png"   alt="" style="
+         width:40px;
+         heigth:40px;
+         "> <font color="#FFF">Agenda revision gratuita</font>
 </div>
     <div class="containerPrecio" >
     <h3><p style="color:#fff";></p>
-    </h3><div style="text-align:center;"> 
+    </h3><div id="res" ALIGN="justify"> 
     <?php
     include('Resultado-precio.php');
     ?></div>
@@ -47,19 +55,22 @@ crossorigin="anonymous"></script>
 
     <!--columna 2-->
     <div class="col-sm-5 col-sm-offset-2 col-md-6 col-md-offset-0 orientacion"><!--inica comoluna 2-->
-    <center><br>
+    <br><center>
     <div class="container3">
         
     <form id="" class="px-4 py-3" action="" method="POST">
 <div class="form-group"></div>
-<div id="" class="resultadoPrecio">
+<div id="" class="resultadoPrecio" ALIGN="justify">
     <h4>Ahora, agenda revision gratuita</h4>
 <h5>
-  el precio inicial corresponde a un vehiculo en condiciones optimas. No constituye oferta de compra. Esta se hara una vez que se verifique el estado del vehiculo
+  El precio inicial corresponde a un vehiculo en condiciones optimas. No constituye oferta de compra. Esta se hara una vez que se verifique el estado del vehiculo
 .La oferta podra no ser igual al precio mostrado. No compramos vehiculos de placa balnca, blindados, clasicos, con leasing, importados directamente,
-con perdidas totales o modificados estructural o mecanicamente.</h5>
+con perdidas totales o modificados estructural o mecanicamente.</h5><br>
 
 </div>
+<div class="espacio"></div>
+<div class="espacio"></div>
+<form action="">
 <h3>Ingresa los datos de tu moto</h3>
   <div id="mm" class="borde-caja"> 
      <select name="ciudad" id="ciudad" class="form-control">
@@ -102,11 +113,12 @@ con perdidas totales o modificados estructural o mecanicamente.</h5>
 <div id="rmodelo"></div>
 
 <div id="mco" class="borde-caja"> 
-<input type="text" value="" name="nombre" id="nombre" placeholder="Ingresa tu nmbre y apellido" class="form-control"></div>
+<input type="text" value="" name="nombre" id="nombre" placeholder="Ingresa tu nombre y apellido" class="form-control"></div>
 <div id="rmodelo"></div>
 
-<input type="submit" value="AGENDAR CITA" id="enviar" name="enviar" class="form-control boton" 
+<input type="button" value="AGENDAR CITA" id="" name="" class="form-control boton" 
 style="background-color:#ffcd00;color: #213f99;font-weight: bold;">
+</form>
 
 </div>
 
