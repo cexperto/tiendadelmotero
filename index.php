@@ -49,7 +49,7 @@ crossorigin="anonymous"></script>
         <div id="rmarca" ></div>
         
 <div id="mr" class="borde-caja">
-    <select name="referencia" id="referencia" class="form-control" onclick="myFunctionre()" disabled>
+    <select name="referencia" id="referencia" class="form-control" onclick="myFunctionre()">
         <option value="">REFERENCIA</option>
     </select>
 </div>
@@ -58,14 +58,14 @@ crossorigin="anonymous"></script>
 <!--js-->
 
 <div id="mo" class="borde-caja"> 
-<select name="modelo" id="modelo" class="form-control" onclick="myFunctionMo()" disabled>
+<select name="modelo" id="modelo" class="form-control" onclick="myFunctionMo()">
     <option value="">MODELO</option>
 </select>
 </div>
 <div id="rmodelo"></div>
 
 <div id="ms" class="borde-caja"> 
-<select name="soat" id="soat" class="form-control" onclick="myFunctionso()" disabled>
+<select name="soat" id="soat" class="form-control" onclick="myFunctionso()">
     <option value="">VIGENCIA DE PAPELES</option>    
 </select>
 </div>
