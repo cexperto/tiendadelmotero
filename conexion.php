@@ -1,12 +1,5 @@
 <?php
 /*
-$dbHost = 'remotemysql.com';
-
-$dbUsername = 'gu6EqlTj8p';
-
-$dbPassword = 'sqYM6pwdQp';
-
-$dbName = 'gu6EqlTj8p';*/
 $dbHost = '186.155.17.192';
 
 $dbUsername = 'ejxhyjxs_motos';
@@ -14,6 +7,15 @@ $dbUsername = 'ejxhyjxs_motos';
 $dbPassword = 'Motero20171234';
 
 $dbName = 'ejxhyjxs_motos';
+*/
+$dbHost = 'remotemysql.com';
+
+$dbUsername = 'gu6EqlTj8p';
+
+$dbPassword = 'sqYM6pwdQp';
+
+$dbName = 'gu6EqlTj8p';
+
 
 
 //Conectamos y seleccionamos la base de datos
