@@ -1,22 +1,20 @@
 <?php
-/*$server="localhost";
-$user="root";
-$pass="";
-$bd="motos";
-
-$conexion=mysqli_connect($server,$user,$pass,$bd);
-if($conexion){
-    //echo "exito";
-}else{
-    echo "pailas";
-}*/
+/*
 $dbHost = 'remotemysql.com';
 
 $dbUsername = 'gu6EqlTj8p';
 
 $dbPassword = 'sqYM6pwdQp';
 
-$dbName = 'gu6EqlTj8p';
+$dbName = 'gu6EqlTj8p';*/
+$dbHost = '198.136.62.62';
+
+$dbUsername = 'ejxhyjxs_motos';
+
+$dbPassword = 'Motero20171234';
+
+$dbName = 'ejxhyjxs_motos';
+
 
 //Conectamos y seleccionamos la base de datos
 
